@@ -8,7 +8,7 @@ This project is a simple implementation of the classic Hangman game using the `p
 1. **main.py**: This is the entry point to initiate the game.
 2. **game.py**: Contains the `Game` class that manages the game logic and controls the flow.
 3. **display.py**: Contains the `Display` class responsible for managing the visual elements of the game.
-4. **player.py**: Represents a player in the game. It has an older method to get input from the user, which seems to be unused in the main game loop.
+4. **player.py**: Represents a player in the game. It has an older method to get input from the user, which seems to be unused in the main game loop. (Deprecated)
 5. **word.py**: Represents a word to be guessed in the game. It has a predefined list of words from which one is chosen randomly each game.
 
 ## How to Use:
@@ -51,5 +51,5 @@ This project is open-source and available under the MIT License.
 
 ## Author:
 
-[Your Name Here]
+RobertIonutF
 
