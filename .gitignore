@@ -1,0 +1,19 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+
+# Pygame specific
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
