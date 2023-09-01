@@ -1,6 +1,5 @@
 import pygame
 from word import Word
-from player import Player
 from display import Display
 
 import pygame
@@ -10,7 +9,6 @@ class Game:
     The Game class represents the game logic and controls the game flow.
 
     Attributes:
-    - player: an instance of the Player class representing the player
     - word: an instance of the Word class representing the word to be guessed
     - display: an instance of the Display class representing the game display
     """
@@ -19,7 +17,6 @@ class Game:
         """
         Initializes a new instance of the Game class.
         """
-        self.player = Player()
         self.word = Word()
         self.display = Display(self.word)
 
